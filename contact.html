@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    	<meta name="keywords" content="">
+    	<meta name="Contact" content="">
+    	<meta name="Donnie Plumly" content="">
+    	<title>Donnie Plumly Contact</title>
+    
+    
+    	<!-- <css> -->
+    	<link rel="stylesheet" href="css/foundation.css">
+    	<link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico">
+        <link rel="stylesheet" href="walkway/walkway.css">
+        <link rel="stylesheet" href="shadowbox/shadowbox.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/modernizr.foundation.js"></script>	
+    </head>
+ 
+    <body>
+        <div id="wrapper">
+	   	    <div class="row">
+	   		    <div id="topnav">
+                    <ul>
+                        <li>
+                            <a class="roll" href="index.html"><img src="img/work/topnav_work.png"    onmouseover="   this.src='img/work/topnav_work_hover.png'" onmouseout="this.    src='img/work/topnav_work.png'"/></a>
+
+                            <a class="roll" href="play.html"><img src="img/play/topnav_play.png"    onmouseover="   this.src='img/play/topnav_play_hover.png'" onmouseout="this.    src='img/play/topnav_play.png'"/></a>
+        
+                            <a class="roll" href="resume.html"><img src="img/resume/topnav_resume.png"      onmouseover="this.src='img/resume/topnav_resume_hover.png'" onmouseout="this.   src='img/resume/topnav_resume.png'"/></a>
+
+                            <a class="roll" href="contact.html"><img src="img/contact/topnav_contact.png"   onmouseover="this.src='img/contact/topnav_contact_hover.png'" onmouseout="   this.  src='img/contact/topnav_contact.png'"/></a>
+                        </li>
+                    </ul><!--end ul-->
+                </div><!--end topnav-->
+            </div><!--end row-->
+
+            <img class="currentpage" src="img/contact/contact_side.png"/>
+
+		    <div id="contact" class="row">
+			    <ul><!-- facebook-->
+                    <li class="four columns">
+                        <a href="https://www.facebook.com/donnieplumly" target="_blank">
+                        <img src="img/contact/facebook.png"></a>
+                    </li>
+
+
+                    <!-- gmail-->
+                    <li class="four columns">
+                        <a href="#inline-1" rel="shadowbox" ><img src="img/contact/gmail.png" alt="" width="50" /></a>
+                            <div id="inline-1" class="hide">
+                                <h3>donnie.plumly@gmail.com</h3>
+                                <p>copy and paste me</p>
+                            </div>
+                    </li>
+
+
+                    <!-- linkedin-->
+                    <li class="four columns">
+                        <a href="http://www.linkedin.com/pub/donnie-plumly/27/347/b07/" target="_blank">
+                        <img src="img/contact/linkedin.png"></a>
+                    </li>
+                </ul><!--end ul-->
+            </div><!--end row-->
+			
+            
+            <footer>
+                <div class="row">
+                    <div class="seven columns centered">
+                        <img id="konamiCode" src="duckhunt/konamiCode.png">
+                        <p class="footer-text">C O P Y R I G H T 2 0 1 3 - <img src="img/logo/logo_black_25.png" alt="donnie plumly logo"> - DONNIE.PLUMLY@GMAIL.COM</p>
+                    </div>
+                </div>
+            </footer>
+        </div><!--end wrapper-->
+
+          
+	    <!-- <javascript> -->
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="shadowbox/shadowbox.js"></script>
+        <script src="duckhunt/dog.js"></script>
+
+        <script type="text/javascript"> 
+            Shadowbox.init({ language: 'en', players: 
+                ['img', 'html', 'iframe', 'qt', 'wmp', 'swf', 'flv'] 
+            }); 
+        </script>
+       
+        <script type="text/javascript">
+           $(window).load(function() {
+              $('.button').duckHunt({
+                    'enterOn' : 'konami-code', //timer, konami-code, click
+                        'delayTime' : 5000 //time before dog appears on timer mode
+                    });
+                });
+        </script>
+
+        <a href="#" class="button"></a>
+    
+        <img id="duckHuntDog" style="display: block; position: fixed; bottom: -700px; right: 400px;" src="duckhunt/dog.png">
+        <audio style="visibility:hidden;" id="perfectScore" preload="auto">
+            <source src="duckhunt/perfectScore.mp3">
+            <source src="duckhunt/perfectScore.ogg">
+        </audio>
+	</body>
+</html>
+
+
+
+
+
